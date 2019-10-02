@@ -1,0 +1,11 @@
+Ask:
+- exceptions
+- possible error (off index)
+- data structure type
+- return type
+
+Approach:
+- think in reverse
+    when asked if values in a collection can reach a target number
+        instead of adding up, try subtracting from the target until
+        reach 0 or neg.
