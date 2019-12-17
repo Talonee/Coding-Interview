@@ -1,11 +1,32 @@
-# Swap two variable in one line
-`a, b = b, a`
-# Single command range
+# Python fxn cheatsheets
+These are useful python codes and functions I've compiled throughout my journey of practicing with the language.
+
+### Swap two variable in one line
+> `a, b = b, a`
+
+### Single command range
 `if a < b <= c:`
-# No decimal division
+
+### No decimal division
 `x//y`
-# Base manipulation
+
+### Base manipulation
 `bin(n)[2:]` - convert to binary
+
 `n.bit_length()` - count binary length (110010 -> 6)
+
 `int(n,x)` - convert string n to base x
-`bin(n), oct(n), hex(n)` - convert integer n to respective base
+
+`bin(n), oct(n), hex(n)` - convert integer n to respective base, include [2:] to extract
+
+### For-else
+`for i in s: ... else:` - the else (`finally:`) clause executes after loop completion; will not executes if for loop encounters a `break`
+
+### Extended Iterable Unpacking
+`a, *b, c = range(5)`
+
+`a >>> 0`
+
+`c >>> 4`
+
+`b >>> [1, 2, 3]`
