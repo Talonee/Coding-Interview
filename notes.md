@@ -30,3 +30,6 @@ These are useful python codes and functions I've compiled throughout my journey 
 `c >>> 4`
 
 `b >>> [1, 2, 3]`
+
+### Format string
+`[[fill]align][sign][pad][width][,][.precision][type]`
