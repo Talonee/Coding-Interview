@@ -1,6 +1,8 @@
 # Python fxn cheatsheets
 These are useful python codes and functions I've compiled throughout my journey of practicing with the language.
 
+# Misc
+
 ### Swap two variable in one line
 > `a, b = b, a`
 
@@ -31,5 +33,12 @@ These are useful python codes and functions I've compiled throughout my journey 
 
 `b >>> [1, 2, 3]`
 
+# Strings
+
 ### Format string
 `[[fill]align][sign][pad][width][,][.precision][type]`
+
+### Regular expression
+`import re` - learn more in **Resources** 
+
+# Lists

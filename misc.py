@@ -12,7 +12,7 @@
 # print(res)
 
 # print("you'll NEVER believe what that 'FrIeNd' of mine did!!1".title())
-s = "This is an example feedback"
+s = "We expect the %f%% growth this week"
 # print(s.replace("\t", " "*2))
 # print(s.split(" ", len(s)%8))
 # print(len(str(3.15)))
@@ -21,5 +21,16 @@ s = "This is an example feedback"
 # s = "We expect the %f%% growth this week"
 # print("%f%%%" in s)
 
-a, *b = "wut"
-print(b)
+# a, *b = "wut"
+# print(b)
+
+closet = list(s)
+print(closet)
+for i in range(len(closet)):
+    if i + 1 < len(closet):
+        if closet[i] == "%" and closet[i + 1] == "%":
+            closet.pop(i + 1)
+        elif closet[i] == "%" and closet[i + 1]:
+            closet.pop(i + 1)
+            closet[i] = "{}"
+print(''.join(closet))
