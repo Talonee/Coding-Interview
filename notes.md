@@ -4,7 +4,7 @@ These are useful python codes and functions I've compiled throughout my journey 
 # Misc
 
 ### Swap two variable in one line
-> `a, b = b, a`
+`a, b = b, a`
 
 ### Single command range
 `if a < b <= c:`
@@ -35,10 +35,14 @@ These are useful python codes and functions I've compiled throughout my journey 
 
 # Strings
 
-### Format string
-`[[fill]align][sign][pad][width][,][.precision][type]`
+### Formatted string literals (f-strings)
+`[[fill]align][sign][pad][width][,][.precision][type]` - str.format()
+
+`f"{}"` - f-strings; can contain `[var][operations:^<>8 (pad)/.2f (round)/xoe (num notation)][fxn][objects]`
+
+- create multiline by escaping a \; require f in front of each line.
 
 ### Regular expression
 `import re` - learn more in **Resources** 
 
-# Lists
+# List
