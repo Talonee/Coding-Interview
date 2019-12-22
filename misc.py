@@ -24,13 +24,19 @@ s = "We expect the %f%% growth this week"
 # a, *b = "wut"
 # print(b)
 
-closet = list(s)
-print(closet)
-for i in range(len(closet)):
-    if i + 1 < len(closet):
-        if closet[i] == "%" and closet[i + 1] == "%":
-            closet.pop(i + 1)
-        elif closet[i] == "%" and closet[i + 1]:
-            closet.pop(i + 1)
-            closet[i] = "{}"
-print(''.join(closet))
+# closet = list(s)
+# print(closet)
+# for i in range(len(closet)):
+#     if i + 1 < len(closet):
+#         if closet[i] == "%" and closet[i + 1] == "%":
+#             closet.pop(i + 1)
+#         elif closet[i] == "%" and closet[i + 1]:
+#             closet.pop(i + 1)
+#             closet[i] = "{}"
+# print(''.join(closet))
+
+l1 = [1,2,3,4,5]
+# l2 = [3,6,7]
+# print(sum(l1[::2]))
+# print(l1[::2] - l1[1::2])
+print(f"Yea aight {l1}")

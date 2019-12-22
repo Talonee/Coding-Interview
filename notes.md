@@ -27,11 +27,7 @@ These are useful python codes and functions I've compiled throughout my journey 
 ### Extended Iterable Unpacking
 `a, *b, c = range(5)`
 
-`a >>> 0`
-
-`c >>> 4`
-
-`b >>> [1, 2, 3]`
+`a >>> 0` and `c >>> 4` and `b >>> [1, 2, 3]`
 
 # Strings
 
@@ -46,3 +42,9 @@ These are useful python codes and functions I've compiled throughout my journey 
 `import re` - learn more in **Resources** 
 
 # List
+
+### Combine lists
+`[*l1, *l2]` or `l1 + l2`
+
+### List Iteration/Slicing
+`list[start:stop:increment]`
